@@ -2,7 +2,7 @@
 
  **Website:** [Website](https://aseelbahakeem.github.io/companies-use-case-challenges/resources.html)
 
-I created this minimalist website for all of us, and I've included a collection of **resources** that I believe will be helpful. These are resources I’ve **personally studied from, searched for, or received recommendations for from experts in the field.  
+I created this minimalist website for all of us, and I've included a collection of **resources** that I believe will be helpful. These are resources I’ve studied from, searched for, or received recommendations for from experts in the field.  
 
 ## What else?
 I'm considering adding a **"Use Case Challenge"** to this project. The idea is to tackle a new AI or tech use case every week—similar to **"100 Days of Coding"**.
