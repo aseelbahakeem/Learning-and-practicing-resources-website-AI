@@ -14,11 +14,7 @@ This would help us:
 
 ## How to Contribute  
 
-### Submit a Resource or Use Case  
-- Found a great **learning resource**?  
-- Have a **real-world AI use case**?
-- hink the website could use some improvements?
-
+### Submit a Resource or Use Case or even improvements 
 Feel free to share it! You can:  
 📩 **Email me** at [aseel.info.contact@gmail.com](mailto:aseel.info.contact@gmail.com)  
 📄 **Send a PDF** with your use case problem  
