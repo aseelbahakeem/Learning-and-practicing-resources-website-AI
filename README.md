@@ -27,7 +27,4 @@ To contribute directly:
 
  **Note:**    
 - All contributions will be reviewed before merging
- 
-And finally, feel free to check it out, contribute, and share any additional resources you think might be useful. Your input will make this website better.  
-
 
