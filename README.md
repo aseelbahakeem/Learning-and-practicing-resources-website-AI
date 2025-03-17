@@ -1,4 +1,4 @@
-# 🚀 Use Case Challenges - Open Source Project
+# Use Case Challenges - Open Source Project
 
 This is an **open-source project** where we post weekly AI & tech use cases for learning and problem-solving.
 
