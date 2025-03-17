@@ -1,4 +1,4 @@
-# Use Case Challenges – Open Source Project  
+# A website for uploading useful resources and practices related to AI   
 
  **Website:** [Website](https://aseelbahakeem.github.io/companies-use-case-challenges/resources.html)
 
@@ -30,7 +30,7 @@ To contribute directly:
 3. **Submit a pull request (PR)** for review.  
 
  **Note:**    
-- All contributions will be **reviewed before merging**  
+- All contributions will be reviewed before merging
  
 And finally, feel free to check it out, contribute, and share any additional resources* you think might be useful. Your input will make this website better.  
 
