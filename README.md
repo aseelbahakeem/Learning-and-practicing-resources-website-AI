@@ -1,6 +1,6 @@
 # Use Case Challenges Open Source Project
 
-This is an **open-source project** where we post weekly AI & tech use cases for learning and problem-solving.
+This is an **open-source project** where we post weekly AI & tech use cases for learning and problem-solving, and for useful resources
 
  **Live Website:** [WEBSITE URL](https://aseelbahakeem.github.io/companies-use-case-challenges/index.html)
 
