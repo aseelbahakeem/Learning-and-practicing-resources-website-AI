@@ -2,7 +2,7 @@
 
 This is an **open-source project** where we post weekly AI & tech use cases for learning and problem-solving.
 
-🌍 **Live Website:** [YOUR WEBSITE URL](https://aseelbahakeem.github.io/companies-use-case-challenges/index.html)
+🌍 **Live Website:** [WEBSITE URL](https://aseelbahakeem.github.io/companies-use-case-challenges/index.html)
 
 ## 📚 How to Contribute
 1. Fork the repository (click the "Fork" button on GitHub).
