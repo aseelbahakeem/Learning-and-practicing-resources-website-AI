@@ -4,9 +4,62 @@
 <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Use Case Challenges</title>
+        <title>Learn & Practice</title>
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
         <style>
+                /* Make table responsive */
+                .table-container {
+                        width: 100%;
+                        overflow-x: auto;
+                }
+
+                table {
+                        width: 100%;
+                        border-collapse: collapse;
+                }
+
+                th,
+                td {
+                        padding: 8px;
+                        text-align: left;
+                        border: 1px solid #ddd;
+                }
+
+                 
+                @media screen and (max-width: 600px) {
+
+                        table,
+                        thead,
+                        tbody,
+                        th,
+                        td,
+                        tr {
+                                display: block;
+                        }
+
+                        thead tr {
+                                display: none;
+                                /* Hide headers on small screens */
+                        }
+
+                        tr {
+                                margin-bottom: 10px;
+                                border: 1px solid #ddd;
+                        }
+
+                        td {
+                                display: flex;
+                                justify-content: space-between;
+                                padding: 10px;
+                        }
+
+                        td::before {
+                                content: attr(data-label);
+                                font-weight: bold;
+                                text-transform: uppercase;
+                        }
+                }
+
                 body {
                         background-color: #f8f9fa;
                         text-align: center;
@@ -14,8 +67,9 @@
                 }
 
                 .container {
-                        max-width: 37.5rem;
+                        max-width: 60rem;
                         margin: auto;
+                        padding-top: 1.25rem;
                 }
 
                 .footer {
@@ -23,14 +77,46 @@
                         font-size: 0.875rem;
                         color: gray;
                 }
+
+                table {
+                        width: 100%;
+                        margin-top: 1rem;
+                }
+
+                th,
+                td {
+                        text-align: center;
+                        padding: 0.75rem;
+                        border-bottom: 1px solid #ddd;
+                }
+
+                th {
+                        background-color: #343a40;
+                        color: white;
+                }
+
+                tr:hover {
+                        background-color: #f1f1f1;
+                }
+
+                .btn-download {
+                        text-decoration: none;
+                        color: #007bff;
+                        font-weight: bold;
+                }
+
+                .btn-download:hover {
+                        text-decoration: underline;
+                }
         </style>
 </head>
 
 <body>
-        <!-- 🔹 Responsive Navbar -->
+
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-                <div class="container">
-                        <a class="navbar-brand" href="index.html">Use Case Challenges 🚀</a>
+                <div class="container" style="
+                padding-top: 3px;">
+                        <a class="navbar-brand" href="index.html">Challanges</a>
                         <!-- Mobile Navbar Toggler -->
                         <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
@@ -43,33 +129,66 @@
                                         <li class="nav-item"><a class="nav-link" href="index.html">🏠 Home</a></li>
                                         <li class="nav-item"><a class="nav-link" href="resources.html">📚 Useful
                                                         Resources</a></li>
-                                        <li class="nav-item"><a class="nav-link" href="contact.html">📩 Contact</a></li>
+                                        <li class="nav-item"><a class="nav-link" href="contact.html">ℹ️ About</a></li>
                                 </ul>
                         </div>
                 </div>
         </nav>
 
         <div class="container">
-                <h1 style="
-                border-top-width: 0.813rem;
-                padding-top: 1.25rem;
-            ">Use Case Challenges </h1>
-                <p></p>
+                <h1>Use Case Challenges</h1>
                 <p>Check back every week for a new challenge!</p>
                 <hr>
                 <h3>📂 Available Use Cases</h3>
-                <ul class="list-group">
-                        <li class="list-group-item">Uh-oh! No use cases yet... but stay tuned! 😎 </li>
-                </ul>
+
+                <div class="table-container">
+                        <table class="table table-striped">
+
+                                <thead>
+                                        <tr>
+                                                <th>Challenge Name</th>
+                                                <th>Difficulty</th>
+                                                <th>Due Date</th>
+                                                <th>PDF</th>
+                                                <th>Solution</th>
+                                                <th>Submit</th>
+                                        </tr>
+                                </thead>
+                                <tbody>
+                                        <tr>
+                                                <td data-label="Challenge Name">Retail Sentiment Analysis</td>
+                                                <td data-label="Difficulty">Easy</td>
+                                                <td data-label="Due Date">Coming Soon</td>
+                                                <!-- <td data-label="PDF"><a href="#">Download</a></td> -->
+                                                <td data-label="PDF"> Coming Soon</td>
+                                                <td data-label="Solution">Coming Soon</td>
+                                                <td data-label="Submit"><a href="#" target="_blank"
+                                                                class="btn btn-primary btn-sm">Submit</a></td>
+                                        </tr>
+                                        <tr>
+                                                <!-- <td data-label="Challenge Name">Customer Prediction</td> -->
+                                                <!-- <td data-label="Difficulty">Medium</td> -->
+                                                <!-- <td data-label="Due Date">Coming Soon</td> -->
+                                                <!-- <td data-label="PDF"><a href="#">Download</a></td> -->
+                                                <!-- <td data-label="Solution">Coming Soon</td> -->
+                                                <!-- <td data-label="Submit"><button>Submit</button></td> -->
+                                        </tr>
+                                </tbody>
+                        </table>
+                </div>
 
         </div>
 
-        <footer class="footer">
-                <p>📩 Have more useful resources? Contact me at <b>aseel.info.contact@gmail.com</b>
+        <footer class="footer text-center mt-4">
+                <p>📩 Have more useful resources?
+                        <a href="mailto:aseel.info.contact@gmail.com"
+                                style="color: rgba(0, 0, 0, 0.564); text-decoration: underline;">Contact Me</a>
                 </p>
         </footer>
 
-        <!-- ✅ Ensure Bootstrap JavaScript is Loaded -->
+
+
+     
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 
