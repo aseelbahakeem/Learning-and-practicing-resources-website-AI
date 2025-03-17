@@ -1,6 +1,6 @@
 # A website for uploading useful resources and practices related to AI   
 
- **Website:** [Website](https://aseelbahakeem.github.io/companies-use-case-challenges/resources.html)
+ **Website:** [Website](https://aseelbahakeem.github.io/Learning-and-practicing-resources-website-AI/resources.html)
 
 I created this minimalist website for all of us, and I've included a collection of **resources** that I believe will be helpful. These are resources I’ve studied from, searched for, or received recommendations for from experts in the field.  
 
