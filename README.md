@@ -12,11 +12,9 @@ This would help us:
 - **Deepen our understanding of AI & tech**
 - **Improve problem-solving skills**  
 
-However, I might not have time to start this immediately, as I want to ensure careful research goes into it. But if anyone is interested in helping out, feel free to make your own use case and send it via email or pull request here on github.
-
 ## How to Contribute  
 
-### **Submit a Resource or Use Case**  
+### Submit a Resource or Use Case  
 - Found a great **learning resource**?  
 - Have a **real-world AI use case**?  
 
@@ -24,15 +22,15 @@ Feel free to share it! You can:
 📩 **Email me** at [aseel.info.contact@gmail.com](mailto:aseel.info.contact@gmail.com)  
 📄 **Send a PDF** with your use case problem  
 
-### GitHub Contributions**  
+### GitHub Contributions 
 To contribute directly:  
 1. **Fork this repository** (this creates a copy in your GitHub account).  
 2. **Make your changes** (add use cases/resources).  
 3. **Submit a pull request (PR)** for review.  
 
  **Note:**    
-- All contributions will be **reviewed before merging**.  
+- All contributions will be **reviewed before merging**  
  
-And finally, feel free to check it out, contribute, and share any additional resources* you think might be useful. Your input will make this project better.  
+And finally, feel free to check it out, contribute, and share any additional resources* you think might be useful. Your input will make this website better.  
 
 
