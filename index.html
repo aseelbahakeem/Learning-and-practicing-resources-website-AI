@@ -9,35 +9,35 @@
         <style>
                 body {
                         background-color: #f8f9fa;
+                        text-align: center;
+                        padding: 50px;
                 }
 
                 .container {
-                        max-width: 800px;
+                        max-width: 600px;
                         margin: auto;
-                        text-align: center;
-                        padding-top: 50px;
                 }
 
                 .footer {
                         margin-top: 30px;
                         font-size: 14px;
                         color: gray;
-                        text-align: center;
-                        padding: 10px;
                 }
         </style>
 </head>
 
 <body>
-
-        <!-- 🔹 Navbar -->
+        <!-- 🔹 Responsive Navbar -->
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
                 <div class="container">
                         <a class="navbar-brand" href="index.html">Use Case Challenges 🚀</a>
+                        <!-- Mobile Navbar Toggler -->
                         <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#navbarNav">
+                                data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                                aria-label="Toggle navigation">
                                 <span class="navbar-toggler-icon"></span>
                         </button>
+                        <!-- Navbar Links -->
                         <div class="collapse navbar-collapse" id="navbarNav">
                                 <ul class="navbar-nav ms-auto">
                                         <li class="nav-item"><a class="nav-link" href="index.html">🏠 Home</a></li>
@@ -49,31 +49,23 @@
                 </div>
         </nav>
 
-        <!-- 🔹 Main Content -->
         <div class="container">
-                <h1 class="mt-4">🚀 Use Case Challenges 🚀</h1>
+                <h1>🚀 Use Case Challenges 🚀</h1>
                 <p>Uh-oh! No use cases yet... but stay tuned! 😎</p>
                 <p>Check back every week for a new challenge!</p>
-
                 <hr>
-
                 <h3>📂 Available Use Cases</h3>
-                <div class="row">
-                        <div class="col-12">
-                                <ul class="list-group">
-                                        <li class="list-group-item">No use cases uploaded yet. Be patient, young
-                                                Padawan. 🧐</li>
-                                </ul>
-                        </div>
-                </div>
+                <ul class="list-group">
+                        <li class="list-group-item">No use cases uploaded yet. Be patient, young Padawan. 🧐</li>
+                </ul>
         </div>
 
-        <!-- 🔹 Footer -->
-        <footer class="footer bg-light mt-5">
+        <footer class="footer">
                 <p>📩 Have more useful resources? Contact me at <b>some_Email_I_Made_For_YOU_To_Contact_me@gmail.com</b>
                 </p>
         </footer>
 
+        <!-- ✅ Ensure Bootstrap JavaScript is Loaded -->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 
