@@ -2,7 +2,7 @@
 
  **Website:** [Website](https://aseelbahakeem.github.io/Learning-and-practicing-resources-website-AI/resources.html)
 
-I created this minimalist website for all of us, and I've included a collection of **resources** that I believe will be helpful. These are resources I’ve studied from, searched for, or received recommendations for from experts in the field.  
+This website includes a collection of resources that I believe will be helpful. These are resources that I’ve studied from, searched for, or received recommendations for from experts in the field.  
 
 ## What else?
 I'm considering adding a **Use Case Challenges** to this project. The idea is to tackle a new AI or tech use case every week (maybe less maybe more), something similar to **"100 Days of Coding"**.
