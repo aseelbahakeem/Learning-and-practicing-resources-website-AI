@@ -26,5 +26,5 @@ To contribute directly:
 3. **Submit a pull request (PR)** for review.  
 
  **Note:**    
-- All contributions will be reviewed before merging
+- Contributions will be reviewed before merging
 
